@@ -33,6 +33,53 @@ a{
 
 #quadroMetricas{
     position: absolute;
-    top: 300px;
-    right: 50px;
+    top: 253px;
+    right: 138px;
+    left: 663px;
+    height: 470px;
+}
+
+#pDaPrimeiraDiv{
+    position: absolute;
+    top: 276px;
+    left: 135px;
+    font-size: 48px;
+    font-family: Work Sans;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 59.33px;
+}
+
+#corLaranja{
+    color: #FF5300;
+}
+
+#subPDaPrimeiraDiv{
+    position: absolute;
+    top: 478px;
+    left: 135px;
+    font-family: Work Sans;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24.1px;
+}
+
+#btn1aSec{
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    left: 135px;
+    top: 593px;
+    background: #FF5300;
+    color: #FFFFFF;
+    border-radius: 99px;
+
+}
+
+#btn1aSec:hover{
+    cursor: pointer;
+    background: #a13703;
 }
