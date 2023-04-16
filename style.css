@@ -95,10 +95,11 @@ a{
 }
 
 #segundaSec{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 935px;
+    height: 835px;
     background-color: #18191A;
 }
 
@@ -106,15 +107,11 @@ a{
     display: flex;
     width: 1700px;
     height: 500px;
-    background-color: #161414;
+    background-color: #18191A;
 }
 
 #divTextoSegundaSec{
-    background-color: rgb(29, 40, 18);
-}
-
-#imgSegundaSec{
-
+    background-color:#18191A;
 }
 
 #tituloSedundaSec{
@@ -129,11 +126,75 @@ text-align: left;
 
 .subtextoDaSegundaSec{
 font-family: Work Sans;
-font-size: 20px;
-font-weight: 500;
-line-height: 25px;
+font-size: 16px;
+font-weight: 100;
 letter-spacing: 0em;
 text-align: left;
+line-height: 150.6%;
+font-style: normal;
 
+}
 
+#botaoDaSegundaSec{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 136px;
+    color: white;
+    background-color: orangered;
+
+}
+
+#botaoDaSegundaSec:hover{
+    cursor: pointer;
+    background: #a13703;
+}
+
+#centralDeBaixoDentroDaSegundaSec{
+    display: flex;
+    gap: 66px;
+    
+}
+
+.divQuadradosDaSegundaSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 210px;
+    width: 270px;
+    background-color: #242526;
+    color: white;
+
+}
+
+.iconesSegundaSec{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.pDosQuadrados{
+    font-family: Work Sans;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24.1px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
 }
