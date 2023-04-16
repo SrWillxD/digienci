@@ -31,41 +31,13 @@ a{
     background-color: #242526;
 }
 
-#segundaSec{
-    display: flex;
-    height: 935px;
-    background-color: red;
-}
-
-#divInternaDaSegundaSec{
-    height: 695px;
-    width: 1242px;
-    margin-top: 120px;
-    margin-left: 99px;
-    margin-right: 99px;
-    background-color: #a13703;
-
-}
-
-#divDeTextoDentroDaDivInternaDaSegundaSec{
-    
-    background-color: aqua;
-}
-
-#imgSegundaSec{
-    display: flex;
-    margin-top: 83px;
-    margin-bottom: 380px;
-    
-
-}
 
 #quadroMetricas{
     position: absolute;
     top: 253px;
     right: 138px;
-    left: 663px;
-    height: 470px;
+    left: 635;
+    height: 429px;
 }
 
 #pDaPrimeiraDiv{
@@ -81,6 +53,10 @@ a{
 
 #corLaranja{
     color: #FF5300;
+}
+
+#corBranca{
+    color: white;
 }
 
 #subPDaPrimeiraDiv{
@@ -111,4 +87,53 @@ a{
 #btn1aSec:hover{
     cursor: pointer;
     background: #a13703;
+}
+
+.logos{
+    display: flex;
+    margin-left: 1470px;
+}
+
+#segundaSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+    background-color: #18191A;
+}
+
+#centralDeCimaDentroDaSegundaSec{
+    display: flex;
+    width: 1700px;
+    height: 500px;
+    background-color: #161414;
+}
+
+#divTextoSegundaSec{
+    background-color: rgb(29, 40, 18);
+}
+
+#imgSegundaSec{
+
+}
+
+#tituloSedundaSec{
+font-family: Work Sans;
+font-size: 39px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.subtextoDaSegundaSec{
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+
 }
